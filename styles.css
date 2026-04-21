@@ -28,39 +28,41 @@ h1::after{
     
 }
 
-/* .box-container{
+
+
+.box-container{
     position: relative;
-    bottom: 50px;
-    left: 10px;
+    top: 90px;
+    right: 180px;
+    transform: rotate(-45deg);
 }
 
 .box{
-   width: 15px;
-   height: 120px;
-   background-color: yellowgreen;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin: 10px;
+    position: absolute;
+
 }
 
-.skyblue{
-    background-color: rgb(26, 127, 167);
-    position: absolute;
-    left: 10px;
+.red{
+    top: 25px;
+    left: 25px;
+    background-color: red;
     z-index: 1;
-    top: 5px;
-    
 }
 
-.lightgreen{
-    background-color: rgb(37, 163, 37);
-    position: absolute;
-    left: 20px;
-    top: 10px;
+.blue{
+    top: 45px;
+    left: 45px;
+    background-color: blue;
     z-index: 2;
 }
 
-.lightpink{
-    background-color: rgb(206, 69, 90);
-    position: absolute;
-    left: 35px;
-    top: 15px;
+.green{
+    top: 65px;
+    left: 65px;
+    background-color: green;
     z-index: 3;
-} */
+}
